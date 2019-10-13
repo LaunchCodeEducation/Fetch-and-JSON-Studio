@@ -5,17 +5,60 @@
 }
 
 .astronaut {
-    border: 1px solid black;
+    border: none;
     display: flex;
     justify-content: space-between;
     width: 500px;
     align-items: center;
-    padding: 5px;
+    padding: 15px;
     margin-bottom: 20px;
     border-radius: 6px;
 }
 
 /* bonus mission */
+
 #count { 
     width: 500px;
+}
+
+/* just because I'm extra */
+
+.astronaut {
+    background-color: whitesmoke;
+    opacity: .8;
+} 
+
+h1 {
+    font-family: 'Baloo Bhai', 'Impact';
+    color: whitesmoke;
+    font-size: 6vh;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 4vh;
+}
+
+p, li, h3 {
+    font-family: 'Titillium Web', 'Lucida Sans', sans-serif;
+}
+
+p {
+    font-size: 2vh;
+    color: whitesmoke;
+}
+
+li {
+    font-size: 2vh;
+}
+
+body {
+    padding: 15px;
+    background-image: url(images/earth.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
