@@ -8,7 +8,6 @@ window.addEventListener('load',function(){
             for(let a=0;a<data.length;a++){
                 results.innerHTML += `
                 <div class="astronaut">
-                
                     <div class="bio">
                     <h3>${data[a].firstName} ${data[a].lastName}</h3>
                     <ul>
